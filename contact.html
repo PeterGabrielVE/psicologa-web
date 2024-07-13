@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto - Servicios de Psicología</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div id="branding">
+        <h1>Servicios de Psicología</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="about.html">Sobre Mí</a></li>
+          <li><a href="services.html">Servicios</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="contact container">
+    <h2>Contacto</h2>
+    <form action="send_email.php" method="post">
+      <label for="name">Nombre:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Correo electrónico:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="message">Mensaje:</label>
+      <textarea id="message" name="message" required></textarea>
+      <button type="submit" class="btn">Enviar</button>
+    </form>
+    <div class="contact-info">
+      <h3>Información de Contacto</h3>
+      <p>Teléfono: +123 456 7890</p>
+      <p>Email: info@psicologia.com</p>
+      <p>Dirección: Calle Falsa 123, Ciudad, País</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>Servicios de Psicología &copy; 2024</p>
+  </footer>
+</body>
+</html>
